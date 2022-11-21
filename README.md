@@ -1,6 +1,6 @@
 # React API Skills Assessment 
 
-A simple skills assessment tast to build a single Page React application which fetches information from an API \([http://universities.hipolabs.com/search?country=Australia](http://universities.hipolabs.com/search?country=Australia)\) and display the results on a table.
+A simple skills assessment task to build a single page React application which fetches information from an API \([http://universities.hipolabs.com/search?country=Australia](http://universities.hipolabs.com/search?country=Australia)\) and displays the results on a table.
 
 This repository containers the entire code based used to achieve this goal including all source code, full documentation on the contents of this repository and instructions on how to setup a development environment and run the program.
 
@@ -24,7 +24,7 @@ Then you must create a folder where you wish to store the project and then open 
 
 You can clone the repository to your project folder by running the following command.
 ```
-git clone https://github.com/Niten001/xxxx.git
+git clone https://github.com/Niten001/react_api_skills_assessment.git
 ```
 You should now have a copy of the master branch of this repository stored locally on your machine for you to edit and run as required.
 
