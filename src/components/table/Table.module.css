@@ -1,0 +1,23 @@
+.table {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  margin: var(--spacing-5) var(--spacing-0);
+  overflow: hidden;
+}
+
+.table .row {
+  border-bottom: var(--border-light);
+}
+
+.table .row:first-child {
+  font-weight: 500;
+  background-color: var(--background-color-alt);
+}
+
+.table .row:last-child {
+  border-bottom: unset;
+}
+
+.table .column {
+  padding: var(--spacing-4) var(--spacing-4);
+}

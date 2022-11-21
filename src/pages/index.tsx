@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faSpinner, faTrash } from '@fortawesome/free-solid-svg-icons';
-import Head from 'next/head'
 import {
   Button,
   ButtonGroup,
@@ -12,7 +11,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 
 import Page from '../components/page';
+import Table from '../components/table';
 import { AppConfig } from '../data/config';
+
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
           </Button>
         </ButtonGroup>
       </ButtonToolbar>
+      <Table columns={["Name", "Webpages", "Domains", "Country"]} content={[]}></Table>
     </Container>
   </Page>);
 }
