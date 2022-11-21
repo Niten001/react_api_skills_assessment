@@ -1,3 +1,21 @@
+:root {
+  --background-color: white;
+  --background-color-alt: lightgrey;
+
+  --text-color: black;
+
+  --spacing-0: 0px;
+  --spacing-1: 1px;
+  --spacing-2: 2px;
+  --spacing-3: 4px;
+  --spacing-4: 8px;
+  --spacing-5: 16px;
+  --spacing-6: 32px;
+  --spacing-7: 64px;
+  --spacing-8: 128px;
+  --spacing-9: 256px;
+}
+
 html,
 body {
   padding: 0;
@@ -13,14 +31,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
