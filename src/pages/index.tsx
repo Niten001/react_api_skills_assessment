@@ -48,7 +48,7 @@ export default function Home() {
           </Button>
         </ButtonGroup>
       </ButtonToolbar>
-      <Table columns={["Name", "Webpages", "Domains", "Country"]} content={apiData}></Table>
+      <Table columns={["Name", "Webpages", "Domains", "Country (Code)"]} content={apiData}></Table>
     </Container>
   </Page>);
 }

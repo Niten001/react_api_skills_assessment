@@ -21,3 +21,14 @@
 .table .column {
   padding: var(--spacing-4) var(--spacing-4);
 }
+
+.table .column .badge {
+  background: var(--background-color-alt);
+  display: block;
+  margin-bottom: var(--spacing-3);
+  width: min-content;
+}
+
+.table .column .badge:last-child {
+  margin-bottom: unset;
+}

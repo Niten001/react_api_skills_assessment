@@ -21,7 +21,7 @@ export const loadApiData = createAsyncThunk(
         name: item["name"],
         webPages: item["web_pages"],
         domains: item["domains"],
-        country: item["country"],
+        country: `${item["country"]} (${item["alpha_two_code"]})`,
       };
     })
   }
