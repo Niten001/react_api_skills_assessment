@@ -1,7 +1,10 @@
 import { configureStore, Action, ThunkAction } from '@reduxjs/toolkit';
+import apiDataReducer from './apiDataSlice';
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    apiData: apiDataReducer,
+  },
 });
 
 export type AppDispatch = typeof store.dispatch;
