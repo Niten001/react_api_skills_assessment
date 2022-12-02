@@ -32,10 +32,14 @@ export const apiDataSlice = createSlice({
   initialState,
   reducers: {
     addItemToData: (state) => {
-      state.value.push(state.value[0]);
+      if (state.value.length > 0) {
+        state.value.push(state.value[0]);
+      }
     },
     deleteItemFromData: (state) => {
-      state.value.pop();
+      if (state.value.length > 0) {
+        state.value.pop();
+      }
     },
   },
   extraReducers: (builder) => {
