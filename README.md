@@ -11,7 +11,7 @@ To set up the development environment for this project you must first create a G
 Next you must make sure several programs are installed on your computer, these programs include:
 - [git](https://git-scm.com/downloads)
 - [Node.js](https://nodejs.org/)
-- [Yarn][https://yarnpkg.com/]
+- [Yarn](https://yarnpkg.com/)
 - A software development environment e.g. [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16)
 
 Once you have these programs installed you can download, modify and run the code contained in this repository.
